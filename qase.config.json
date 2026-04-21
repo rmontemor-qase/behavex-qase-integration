@@ -1,0 +1,29 @@
+{
+  "mode": "testops",
+  "fallback": "report",
+  "debug": false,
+  "testops": {
+    "project": "REPLACE_VIA_ENV_OR_HERE",
+    "api": {
+      "token": "REPLACE_VIA_ENV_OR_HERE"
+    },
+    "run": {
+      "title": "BehaveX + Qase demo run",
+      "description": "Automated run produced by the behavex-qase-integration sample project",
+      "complete": true
+    },
+    "batch": {
+      "size": 100
+    }
+  },
+  "report": {
+    "driver": "local",
+    "connection": {
+      "local": {
+        "path": "./build/qase-report",
+        "format": "json"
+      }
+    }
+  },
+  "environment": "local"
+}

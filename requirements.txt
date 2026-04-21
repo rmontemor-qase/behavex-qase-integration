@@ -1,0 +1,4 @@
+behave>=1.2.6
+behavex==4.6.0
+qase-behave>=3.2.0
+filelock>=3.12.2
