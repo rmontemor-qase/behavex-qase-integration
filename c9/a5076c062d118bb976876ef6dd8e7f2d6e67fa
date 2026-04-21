@@ -1,0 +1,52 @@
+features/steps/authentication_steps.py
+  3fff301b3702c455 1-62
+features/environment.py
+  3fff301b3702c455 1-20
+qase.config.json
+  3fff301b3702c455 1-29
+README.md
+  3fff301b3702c455 2-134
+features/authentication.feature
+  3fff301b3702c455 1-30
+features/calculator.feature
+  3fff301b3702c455 1-48
+requirements.txt
+  3fff301b3702c455 1-4
+.env.example
+  3fff301b3702c455 1-28
+features/steps/calculator_steps.py
+  3fff301b3702c455 1-48
+src/auth.py
+  3fff301b3702c455 1-33
+behave.ini
+  3fff301b3702c455 1-5
+.gitignore
+  3fff301b3702c455 1-26
+src/calculator.py
+  3fff301b3702c455 1-31
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.2",
+  "base_commit_sha": "c9a5076c062d118bb976876ef6dd8e7f2d6e67fa",
+  "prompts": {
+    "3fff301b3702c455": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "3697b676-6316-49d8-8a68-7f20b0efe327",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "rmontemor-qase",
+      "messages": [],
+      "total_additions": 531,
+      "total_deletions": 34,
+      "accepted_lines": 497,
+      "overriden_lines": 0
+    }
+  },
+  "humans": {
+    "h_3d1514d6cddc1e": {
+      "author": "rmontemor-qase"
+    }
+  }
+}
