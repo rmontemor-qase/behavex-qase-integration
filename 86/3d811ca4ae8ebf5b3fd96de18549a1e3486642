@@ -1,0 +1,29 @@
+README.md
+  81ece02e3e5f0040 53,93,96
+features/authentication.feature
+  81ece02e3e5f0040 31-39
+features/calculator.feature
+  81ece02e3e5f0040 45-52
+features/environment.py
+  81ece02e3e5f0040 14-16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.4",
+  "base_commit_sha": "863d811ca4ae8ebf5b3fd96de18549a1e3486642",
+  "prompts": {
+    "81ece02e3e5f0040": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "a34c4264-ad39-4e53-b6ae-7ce5dc802bab",
+        "model": "gpt-5.5"
+      },
+      "human_author": "rmontemor-qase",
+      "messages": [],
+      "total_additions": 23,
+      "total_deletions": 2,
+      "accepted_lines": 23,
+      "overriden_lines": 0
+    }
+  }
+}
