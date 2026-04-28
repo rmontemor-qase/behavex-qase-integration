@@ -42,6 +42,14 @@ Feature: Calculator
       | 5     | 4      | 20     |
       | 7     | 0      | 0      |
 
+  @skip
+  @qase.id:8
+  @qase.suite:Calculator
+  @qase.fields:{"severity":"normal","priority":"low","layer":"unit"}
+  Scenario: Skipped calculator memory recall
+    When I add 42
+    Then the displayed value should be 42
+
   @qase.ignore
   Scenario: Work-in-progress scientific mode
     Given this test is not ready

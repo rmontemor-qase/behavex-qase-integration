@@ -28,3 +28,12 @@ Feature: Authentication
     And they are logged in
     When they log out
     Then no user should be authenticated
+
+  @skip
+  @qase.id:9
+  @qase.suite:Authentication
+  @qase.fields:{"severity":"normal","priority":"low","layer":"e2e"}
+  Scenario: Skipped password reset flow
+    Given the user "carol" with password "s3cret"
+    When they attempt to log in
+    Then the login should succeed

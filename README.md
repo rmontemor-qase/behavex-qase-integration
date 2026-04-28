@@ -50,7 +50,7 @@ set -a && source .env && set +a
 
 Environment variables override `qase.config.json`, so the placeholders in the JSON file are simply ignored once your `.env` is loaded.
 
-Make sure the test case IDs used in the feature files (`@qase.id:1` .. `@qase.id:7`) exist in your Qase project, or remove the tags so the reporter auto-creates them.
+Make sure the test case IDs used in the feature files (`@qase.id:1` .. `@qase.id:9`) exist in your Qase project, or remove the tags so the reporter auto-creates them.
 
 ## 3. Run the suite
 
@@ -90,9 +90,10 @@ QASE_MODE=report behave --format=qase.behave.formatter:QaseFormatter
 | `@qase.id:N`                                     | Link a scenario to an existing Qase test case                             |
 | `@qase.suite:Name`                               | Group scenarios under a suite in TestOps                                  |
 | `@qase.fields:{"severity":"...","priority":"..."}` | Attach custom fields (severity, priority, layer, …) — use `_` for spaces |
+| `@skip`                                          | Mark a scenario as skipped so Qase receives a `skipped` result            |
 | `@qase.ignore`                                   | Skip reporting for a scenario (still runs unless filtered out)            |
 
-`calculator.feature` also shows a **Scenario Outline** with a data table — each example row is reported as a separate test result in Qase.
+`calculator.feature` also shows a **Scenario Outline** with a data table — each example row is reported as a separate test result in Qase. Both feature files include a skipped scenario to exercise the Qase skipped-status mapping.
 
 ---
 
